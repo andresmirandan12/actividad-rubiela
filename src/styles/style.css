@@ -112,6 +112,259 @@ main {
     min-height: calc(100vh - 200px);
 }
 
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+.Contenedor_Principal{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Caja-1{
+    background-color: white;
+    max-width: 370px;
+    width: 370px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+}
+
+.Caja-1:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.9s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-2:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-3:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-4:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-5:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-6:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-7:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-8:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-9:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-10:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-11:hover{
+    transform: scale(1.1);
+    background-color: black;
+    color: white;
+    transition: transform 0.3s;
+    transition: background-color 0.3s;
+    transition: color 0.9s;
+}
+
+.Caja-2{
+    background-color: white;
+    max-width: 370px;
+    width: 370px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+}
+
+.Caja-3{
+    background-color: white;
+    max-width: 370px;
+    width: 370px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+    
+}
+
+.Caja-4{
+    background-color: white;
+    max-width: 370px;
+    width: 370px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px;
+    
+}
+
+.Caja-5{
+    background-color: white;
+    max-width: 370px;
+    width: 370px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px;
+    
+}
+
+.Caja-6{
+    background-color: white;
+    max-width: 370px;
+    width: 370px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px;
+    
+}
+
+.Caja-7{
+    background-color: white;
+    width: 370px;
+    max-width: 370px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px;
+}
+
+.Caja-8{
+    background-color: white;
+    width: 370px;
+    max-width: 370px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px;
+    flex-direction: column;
+}
+
+.Caja-9{
+    background-color: white;
+    width: 370px;
+    max-width: 370px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px;
+}
+
+.Caja-10{
+    background-color: white;
+    width: 370px;
+    max-width: 370px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px;
+}
+
+.Caja-11{
+    background-color: white;
+    width: 370px;
+    max-width: 370px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 3px;
+}
+
+img{
+    height: 350px;
+    width: 350px;
+    max-width: 350px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+b{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button{
+    height: 30px;
+    width: 350px;
+    max-width: 350px;
+    background-color: green;
+    color: white;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+button {
+  margin-top: auto;
+}
+
+button:hover{
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+    color: black;
+    transform: scale(1.04);
+}
+
+
 /* Animaciones */
 @keyframes fadeInDown {
     from {
